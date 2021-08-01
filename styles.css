@@ -1,0 +1,143 @@
+html {
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  min-width: 420px;
+}
+h1 {
+  margin: 5px;
+}
+.full-page {
+}
+.header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: slategrey;
+  height: auto;
+  margin: 0%;
+  top: 0px;
+}
+.nav-bar {
+  margin: 0%;
+  padding: 0px;
+  float: left;
+  display: block;
+}
+.nav-bar a {
+  text-decoration: none;
+}
+.nav-bar li {
+  margin: 0%;
+  padding: 10px;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.nav-bar li:hover {
+  background-color: black;
+  color: white;
+}
+.section {
+  padding-top: 20px;
+}
+.footer {
+  padding: 50px;
+  background-color: lightslategrey;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  height: auto;
+}
+.quote {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  height: auto;
+  background-image: url("stars.jpg");
+  margin: 0px;
+  padding: 10px;
+}
+#who-i-am {
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 40px 10px 10px 10px;
+  height: min-content;
+  background: url("background3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#exp-skills {
+  color: white;
+  font-weight: bolder;
+  padding: 40px 10px 10px 10px;
+  height: min-content;
+  background: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact {
+  color: white;
+  font-weight: bolder;
+  padding: 40px 10px 10px 10px;
+  height: min-content;
+  background: url("background2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  text-orientation: upright;
+  height: min-content;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  text-orientation: upright;
+  height: min-content;
+}
+.flexbox p {
+  padding: 20px;
+}
+.link-footer {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.link-footer:hover {
+  color: black;
+}
+fieldset {
+  width: min-content;
+  align-items: center;
+  margin: auto;
+}
+textarea {
+  width: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .flexbox {
+    flex-wrap: wrap;
+  }
+}

@@ -1,12 +1,146 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcones Oliveira</title>
-</head>
-<body>
-    <p>Este é um teste.</p>
-</body>
+    <meta name="author" content="Marcones Oliveira" />
+    <meta
+      name="description"
+      content="A small portfolio with some informations about me."
+    />
+    <meta
+      name="keywords"
+      content="Marcones Oliveira, Developer, C/C++, HTML, CSS, JavaScript"
+    />
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="full-page">
+      <div class="header">
+        <!-- Navigation -->
+        <ul class="nav-bar">
+          <a href="#who-i-am"><li>Who i am</li></a>
+          <a href="#exp-skills"><li>Experience and Skills</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+      </div>
+      <!-- Content -->
+      <div class="section">
+        <!-- First section - Who i am -->
+        <div id="who-i-am">
+          <h2>WHO I AM</h2>
+          <div class="flexbox">
+            <p>
+              Hello, i'm Marcones Oliveira, a young tecnology enthusiast, whose
+              aspirations reach for the sky! <br /><br />
+              25 years old, brazilian, i'm changing my carrer from broadcasting
+              to programing. <br /><br />
+              In my freetime i like gaming and cinema with my wife, and playing
+              with our dog: Thor, the migthy poodle.
+            </p>
+            <p>
+              <img
+                src="me.jpg"
+                alt="A picture of me."
+                class="animate__animated animate__backInRight"
+              />
+            </p>
+          </div>
+        </div>
+        <div class="quote">
+          <p>
+            "Shoot for the moon. Even if you miss, you'll land among the stars."
+            - Norman Vincent Peale.
+          </p>
+        </div>
+        <!-- Second section - Experience and Skills -->
+        <div id="exp-skills">
+          <h2>MY EXPERIENCE AND SKILLS</h2>
+          <div class="flexbox">
+            <p>
+              I've worked for five years with broadcasting for television, and
+              now i'm changing carrer to programing. <br /><br />
+              Right now i'm studying Systems Analysis and Development.
+              <br /><br />
+              So far i have acquired experience with c/c++, html, css and
+              javascript. Also git and github.
+            </p>
+            <div class="flex">
+              <img
+                src="cpp.png"
+                alt="Logo from C++."
+                class="animate__animated animate__backInRight"
+                style="width: 100px"
+              />
+              <img
+                src="html.png"
+                alt="Logo from html, css and javascript."
+                class="animate__animated animate__backInRight"
+                style="width: 250px"
+              />
+              <img
+                src="git.png"
+                alt="Logo from git and github."
+                class="animate__animated animate__backInRight"
+                style="width: 222px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="quote">
+          <p>
+            “Any fool can write code that a computer can understand. Good
+            programmers write code that humans can understand.” – Martin Fowler
+          </p>
+        </div>
+        <!-- Third section - Contact -->
+        <div id="contact">
+          <h2>Did you like what you saw? Contact me!</h2>
+          <h3>Leave a Message:</h3>
+          <div class="form">
+            <fieldset>
+              <legend>Contact</legend>
+              <form action="" method="post">
+                <textarea
+                  placeholder="Your Sugestion"
+                  name=""
+                  id=""
+                  cols="50"
+                  rows="10"
+                ></textarea>
+              </form>
+              <br />
+              <button type="submit">Send Message</button>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer">
+        <p>
+          Developed by Marcones Oliveira <br /><br />
+          <a
+            href="https://github.com/MarconesOliveira"
+            target="_blank"
+            class="link-footer"
+            >Github</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/marcones-oliveira-a088a1133/"
+            target="_blank"
+            class="link-footer"
+            >Linkedin</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
