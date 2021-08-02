@@ -140,4 +140,8 @@ img {
   .flexbox {
     flex-wrap: wrap;
   }
+  #my-picture{
+    height: 70%;
+    align-items: center;
+  }
 }
